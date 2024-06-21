@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchData } from './features/dataSlice';
-import ProductPane from './ProductPane';
-import TableComponent from './TableComponent';
-import Header from './Header';
+import ProductPane from './components/ProductPane/ProductPane';
+import TableComponent from './components/Table/TableComponent';
+import Header from './components/Header/Header';
 import { AppDispatch } from './app/store';
 import './App.css';
 

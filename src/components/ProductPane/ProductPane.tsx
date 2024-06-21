@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { RootState } from './app/store';
-import { Product } from './types';
+import { RootState } from '../../app/store.ts';
+import { Product } from '../../types.ts';
 import './ProductPane.css';
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../public/stackline_logo.svg'; 
+import logo from '/stackline_logo.svg'; 
 
 const Header: React.FC = () => {
   return (
