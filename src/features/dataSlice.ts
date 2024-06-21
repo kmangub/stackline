@@ -15,7 +15,7 @@ const initialState: DataState = {
 }
 
 export const fetchData = createAsyncThunk('data/fetchData', async () => {
-    const response = await fetch('/stackline_frontend_assessment_data_2021.json');
+    const response = await fetch('public/stackline_frontend_assessment_data_2021.json');
 
     if (!response.ok) {
         throw new Error('No response from network');
